@@ -12,3 +12,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.header {
+  grid-area: header;
+  background-color: rgb(84, 172, 231);
+  text-align: center;
+  color: aliceblue;
+}
+
+.home {
+  grid-area: home;
+}
+
+.chatbot {
+  grid-area: chatbot;
+  background-color: lightgray;
+  height: calc(100vh - 10.5rem);
+}
+
+.footer {
+  grid-area: footer;
+  text-align: center;
+  background-color: rgb(84, 172, 231);
+  height: 4rem;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-areas:
+    'header   header   header   header'
+    'home     home     home     chatbot'
+    'footer   footer   footer   footer';
+}

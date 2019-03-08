@@ -1,0 +1,22 @@
+.chat-content {
+    display: grid;
+    grid-template-rows: 5rem auto 5rem;
+    height: 100%;
+    padding: .5rem;
+}
+
+.chat-header {
+    text-align: center;
+}
+
+.chat-conversation {
+
+}
+
+.chat-message {
+
+}
+
+.chat-message Input {
+    width: 40%;
+}
